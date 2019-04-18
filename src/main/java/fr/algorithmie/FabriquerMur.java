@@ -21,11 +21,20 @@ public class FabriquerMur {
 	static boolean fabriquerMur(int nbSmall, int nbBig, int longueur) {
 		boolean resultat = false;
 		// TODO: implémenter l'algo
-		int nbSommeGrandBlocs, nbSommePetitsBlocs;
-		if (nbBig*5 )
-		for (int nbBig ; i < longueur; i++) {
-			
+		int nbBigMax = longueur/5;
+		int longueurRestante = 0;
+		//Si nbBig < nbBigMax
+		if (nbBig < nbBigMax ) {
+			longueurRestante = longueur - nbBig*5;
+			if (nbSmall >= longueurRestante ) resultat = true;
 		}
+		else {
+			longueurRestante = longueur - nbBigMax *5;
+			if (nbSmall >= longueurRestante ) resultat = true;
+				
+		}
+		
+		
 		return resultat;
 	}
 
