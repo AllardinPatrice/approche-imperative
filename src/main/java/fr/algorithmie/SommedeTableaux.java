@@ -12,8 +12,5 @@ public class SommedeTableaux {
 			array3[i] = array1[i] + array2[i];
 			System.out.println("La somme est : indice : " + i + " valeur : " + array3[i]);
 		}
-		
-		
 	}
-
 }

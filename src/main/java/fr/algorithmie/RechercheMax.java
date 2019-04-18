@@ -8,11 +8,8 @@ public class RechercheMax {
 		for (int i = 0; i < array.length; i++) {
 			if (array[i] > plusGrand) {
 				plusGrand = array [i];
-				
 			}
 		}
 		System.out.println("Le plus grand est : " + plusGrand);
-
 	}
-
 }

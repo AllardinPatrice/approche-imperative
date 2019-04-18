@@ -8,7 +8,6 @@ public class InteractifStockageNombre {
 		int[] tab = new int[0];
 		boolean termine = false;
 		while (!termine) {
-
 			System.out.println("1. Ajouter un nombre ");
 			System.out.println("2. Afficher les nombres existants ");
 			Scanner scanner = new Scanner(System.in);
@@ -35,7 +34,6 @@ public class InteractifStockageNombre {
 					// Fin
 					System.out.println("Fin");
 					termine = true;
-					
 				}
 			}
 

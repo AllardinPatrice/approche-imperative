@@ -53,11 +53,7 @@ public class Interactif21Batons {
 					termine = true;
 					continue;
 				}
-			
-				
-			
 			System.out.println("Nombre de batons restant : " + nombreBatons);
-
 		}
 	}
 

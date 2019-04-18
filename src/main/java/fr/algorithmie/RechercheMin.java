@@ -8,11 +8,8 @@ public class RechercheMin {
 		for (int i = 0; i < array.length; i++) {
 			if (array[i] < plusPetit) {
 				plusPetit = array [i];
-				
 			}
 		}
 		System.out.println("Le plus petit est : " + plusPetit);
-
 	}
-
 }

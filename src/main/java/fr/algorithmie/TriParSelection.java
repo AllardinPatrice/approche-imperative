@@ -16,14 +16,10 @@ public class TriParSelection {
 				c = array2 [i];
 				array2[i] = array2[min];
 				array2[min] = c;
-				
 			}
-			
 		}
 		for (int i = 0 ; i < array2.length ; i++) {
 			System.out.println("Le tableau trié est : indice : " + i + " valeur : " + array2[i]);	
 		}
-		
 	}
-
 }

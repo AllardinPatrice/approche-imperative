@@ -18,5 +18,4 @@ public class TriABulles {
 			System.out.println("Le tableau trié à bulles est : indice : " + i + " valeur : " + array2[i]);	
 		}
 	}
-
 }

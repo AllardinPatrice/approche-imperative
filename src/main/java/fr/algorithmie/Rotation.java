@@ -14,5 +14,4 @@ public class Rotation {
 			System.out.println("Rotation : indice : " + i + " valeur : " + array2[i]);
 		}
 	}
-
 }
