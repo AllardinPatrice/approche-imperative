@@ -26,33 +26,33 @@ public class Interactif21Batons {
 				System.out.println("Nombre de batons CPU : 1");
 			} else {
 				if (nombreBatons == 4) {
-				// Prendre 3
-				nombreBatons -= 3;
-				System.out.println("Nombre de batons CPU : 3");
+					// Prendre 3
+					nombreBatons -= 3;
+					System.out.println("Nombre de batons CPU : 3");
 				} else {
 					if (nombreBatons == 3) {
 						// Prendre 2
 						nombreBatons -= 2;
 						System.out.println("Nombre de batons CPU : 2");
-					} else { 
+					} else {
 						if (nombreBatons == 2) {
-						// Prendre 1
+							// Prendre 1
 							nombreBatons--;
 							System.out.println("Nombre de batons CPU : 1");
 						} else {
 							valeurCPU = (int) (Math.random() * 3) + 1;
 							nombreBatons -= valeurCPU;
 							System.out.println("Nombre de batons Random CPU : " + valeurCPU);
-						
+
 						}
 					}
 				}
 			}
-			
+
 			if (nombreBatons == 0) {
-					termine = true;
-					continue;
-				}
+				termine = true;
+				continue;
+			}
 			System.out.println("Nombre de batons restant : " + nombreBatons);
 		}
 	}

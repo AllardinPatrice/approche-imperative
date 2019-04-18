@@ -11,7 +11,7 @@ public class InteractifTantQue {
 			Scanner scanner = new Scanner(System.in);
 			valeur = scanner.nextInt();
 		}
-		System.out.println("Valeur : " + valeur );
+		System.out.println("Valeur : " + valeur);
 	}
 
 }

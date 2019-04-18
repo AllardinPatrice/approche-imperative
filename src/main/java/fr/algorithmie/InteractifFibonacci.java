@@ -11,12 +11,12 @@ public class InteractifFibonacci {
 		double premiereValeur = 0;
 		double deuxiemeValeur = 1;
 		double valeurTemporaire;
-	    for (double increment = 0; increment < valeur; increment++) {
-	    	valeurTemporaire = premiereValeur + deuxiemeValeur;
-	    	premiereValeur = deuxiemeValeur;
-	    	deuxiemeValeur = valeurTemporaire;
-	    }
-	    System.out.println("Fibonacci : " +  premiereValeur);
+		for (double increment = 0; increment < valeur; increment++) {
+			valeurTemporaire = premiereValeur + deuxiemeValeur;
+			premiereValeur = deuxiemeValeur;
+			deuxiemeValeur = valeurTemporaire;
+		}
+		System.out.println("Fibonacci : " + premiereValeur);
 	}
 
 }
